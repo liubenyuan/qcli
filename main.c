@@ -61,6 +61,7 @@ int main() {
   QSH("cmd2_exec1: %d\r\n", ret);
   ret = qcli_exec_str(&cli, "cmd3 2 10");
   QSH("cmd2_exec2: %d\r\n", ret);
+  QSH("press Enter to continue\r\n");
 
   char ch;
   for (;;) {
